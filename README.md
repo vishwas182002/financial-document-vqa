@@ -92,13 +92,13 @@ financial-document-vqa/
 │   ├── 03_zeroshot_pix2struct.ipynb    # Pix2Struct zero-shot on DocVQA
 │   ├── 04_zeroshot_donut.ipynb         # Donut zero-shot on DocVQA
 │   ├── 05_zeroshot_layoutlmv3.ipynb    # LayoutLMv3 zero-shot on DocVQA
-│   ├── 07_deplot_llm_pipeline.ipynb    # DePlot + FLAN-T5 on ChartQA
-│   ├── 08_financial_test_set.ipynb     # Financial test set collection
-│   ├── 09_financial_evaluation_final.ipynb  # All models on financial test set
-│   ├── 10_lora_finetuning.ipynb        # Generic LoRA fine-tuning on DocVQA
-│   ├── 11_error_analysis.ipynb         # Failure mode taxonomy
-│   ├── 12_gradio_demo.ipynb            # Interactive demo app
-│   └── 13_financial_finetuning.ipynb   # Domain-specific LoRA fine-tuning
+│   ├── 06_deplot_llm_pipeline.ipynb    # DePlot + FLAN-T5 on ChartQA
+│   ├── 07_financial_test_set.ipynb     # Financial test set collection
+│   ├── 08_financial_evaluation_final.ipynb  # All models on financial test set
+│   ├── 09_lora_finetuning.ipynb        # Generic LoRA fine-tuning on DocVQA
+│   ├── 10_error_analysis.ipynb         # Failure mode taxonomy
+│   ├── 11_gradio_demo.ipynb            # Interactive demo app
+│   └── 12_financial_finetuning.ipynb   # Domain-specific LoRA fine-tuning
 ├── data/
 │   └── financial_test/
 │       ├── annotations/                # 397 verified QA pairs (JSON)
@@ -180,7 +180,3 @@ The following datasets must be downloaded separately to reproduce the training a
 **Vishwas K.**
 M.S. Computer Science, University of Colorado Boulder
 
-## Course
-
-Neural Networks and Deep Learning (Spring 2026)
-Professor Danna Gurari
