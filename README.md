@@ -123,7 +123,7 @@ The following datasets must be downloaded separately to reproduce the training a
 - **DocVQA**: Download from [pixparse/docvqa-single-page-questions](https://huggingface.co/datasets/pixparse/docvqa-single-page-questions) on HuggingFace
 - **ChartQA**: Download via `datasets.load_dataset("HuggingFaceM4/ChartQA")`
 - **TAT-QA**: Clone from [GitHub](https://github.com/NExTplusplus/TAT-QA)
-- **Model checkpoints**: LoRA fine-tuned weights are not included. Re-run `10_lora_finetuning.ipynb` or `13_financial_finetuning.ipynb` to reproduce.
+- **Model checkpoints**: LoRA fine-tuned weights are not included. Re-run `09_lora_finetuning.ipynb` or `12_financial_finetuning.ipynb` to reproduce.
 
 ### How to reproduce
 1. Clone this repository
@@ -131,7 +131,7 @@ The following datasets must be downloaded separately to reproduce the training a
 3. Open notebooks in Google Colab with GPU runtime
 4. Run notebooks in numerical order
 5. For notebooks 01-05, download DocVQA/ChartQA datasets first and save to Google Drive as described in notebook 01
-6. For notebooks 09+, the financial test set is included in this repository
+6. For notebooks 08+, the financial test set is included in this repository
 
 ## Technology Stack
 
