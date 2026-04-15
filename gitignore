@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets (download separately)
+data/docvqa/
+data/chartqa/
+data/tatqa/
+
+# Model checkpoints
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Colab
+*.pyc
+sample_data/
+
+# Environment
+.env
+*.log
